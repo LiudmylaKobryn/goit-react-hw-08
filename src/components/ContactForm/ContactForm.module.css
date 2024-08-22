@@ -3,7 +3,7 @@
   flex-direction: row;
   align-items: flex-end;
   gap: 20px;
-  background-color: #00000091;
+  background-color: rgba(136, 132, 132, 0.205);
   padding: 40px;
   border-radius: 10px;
 }
@@ -20,19 +20,19 @@
   border: none;
   padding: 5px 10px;
   &:focus {
-    outline: 1px solid orange;
+    outline: 1px solid #11b648;
   }
 }
 
 .error {
-  color: orange;
+  color: #11b648;
   position: absolute;
   bottom: -25px;
   font-size: 14px;
 }
 
 button {
-  background-color: rgb(146, 95, 1);
+  background-color: #11b648;
   color: white;
   padding: 5px;
   border-radius: 4px;
@@ -41,6 +41,6 @@ button {
   cursor: pointer;
   min-height: 30px;
   &:hover {
-    background-color: rgb(182, 124, 17);
+    background-color: #11b648;
   }
 }
